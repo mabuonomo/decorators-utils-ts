@@ -1,0 +1,9 @@
+version: "3.2"
+services:
+  app:
+    container_name: decoratos-utils-ts
+    build:
+      context: ./
+      dockerfile: DockerFile
+    volumes:
+      - .:/home/app/
