@@ -1,4 +1,4 @@
-export function performanceLog(outputConsole: boolean, thresholdToDisplayErrorInMs: number = 1000) {
+export default function performanceLog(outputConsole: boolean, thresholdToDisplayErrorInMs: number = 1000) {
     return (target: any, propertyKey: string, descriptor: PropertyDescriptor) => {
         // Ensure we have the descriptor that might been overriden by another decorator
         if (descriptor === undefined) {

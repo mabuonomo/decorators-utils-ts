@@ -1,6 +1,6 @@
 {
     "name": "decorators-utils-ts",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Various decorators utils in typescript",
     "main": "index.js",
     "scripts": {
@@ -20,5 +20,8 @@
         "@types/lodash": "^4.14.118",
         "typescript": "^3.2.2",
         "typings-checker": "^2.0.0"
+    },
+    "dependencies": {
+        "@types/node": "^10.12.18"
     }
 }
