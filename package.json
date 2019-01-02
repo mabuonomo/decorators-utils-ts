@@ -1,0 +1,24 @@
+{
+    "name": "decorators-utils-ts",
+    "version": "1.0.0",
+    "description": "Various decorators utils in typescript",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mabuonomo/decorators-utils-ts.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mabuonomo/decorators-utils-ts/issues"
+    },
+    "homepage": "https://github.com/mabuonomo/decorators-utils-ts#readme",
+    "devDependencies": {
+        "@types/lodash": "^4.14.118",
+        "typescript": "^3.2.2",
+        "typings-checker": "^2.0.0"
+    }
+}
