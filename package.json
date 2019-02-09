@@ -18,7 +18,7 @@
     "homepage": "https://github.com/mabuonomo/decorators-utils-ts#readme",
     "devDependencies": {
         "@types/lodash": "^4.14.118",
-        "typescript": "^3.2.2",
+        "typescript": "^3.3.3",
         "typings-checker": "^2.0.0"
     },
     "dependencies": {

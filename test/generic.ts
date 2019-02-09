@@ -1,4 +1,4 @@
-import performanceLog from "../performance/performanceLog";
+import performanceLog from "../src/performance/performanceLog";
 
 class MyClass {
 
