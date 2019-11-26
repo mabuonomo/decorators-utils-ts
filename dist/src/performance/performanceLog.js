@@ -15,14 +15,14 @@ function performanceLog(outputConsole, thresholdToDisplayErrorInMs) {
             for (var _i = 0; _i < arguments.length; _i++) {
                 args[_i] = arguments[_i];
             }
-            var parametersAsString = args.map(function (parameter) { return JSON.stringify(parameter); }).join(",");
+            var parametersAsString = args.map(function (parameter) { return JSON.stringify(parameter); }).join(',');
             var startTime = new Date().getTime();
             var result = originalMethod.apply(this, args); // Call the original method
             var endTime = new Date().getTime();
             var timespan = endTime - startTime;
             var stringResult = JSON.stringify(result);
             if (outputConsole) {
-                var message = "Call [" + timespan + "ms]: " + propertyKey + "(" + parametersAsString + ") => " + stringResult;
+                var message = 'Call [' + timespan + 'ms]: ' + propertyKey + '(' + parametersAsString + ') => ' + stringResult;
                 if (timespan < thresholdToDisplayErrorInMs) {
                     console.log(message);
                 }

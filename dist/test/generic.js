@@ -11,7 +11,7 @@ var MyClass = /** @class */ (function () {
     function MyClass() {
     }
     MyClass.prototype.myMethod = function () {
-        console.log("Inside");
+        console.log('Inside');
         return true;
     };
     __decorate([

@@ -5,7 +5,11 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --config ./.prettierrc --write \"./src/**.js\" \"./src/**/*.ts\"",
+        "format_checker": "prettier --check \"./src/**.js\" \"./src/**/*.ts\"",
+        "tslint": "tslint -p tsconfig.json -c tslint.json",
+        "tslint:fix": "tslint --fix -p tsconfig.json -c tslint.json"
     },
     "repository": {
         "type": "git",
@@ -25,6 +29,7 @@
     },
     "dependencies": {
         "@types/node": "^12.12.14",
-        "tslint": "^5.20.1"
+        "tslint": "^5.20.1",
+        "tslint-config-prettier": "^1.18.0"
     }
 }

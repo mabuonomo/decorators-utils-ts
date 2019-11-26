@@ -1,10 +1,10 @@
-import { performanceLog } from "../src/performance/performanceLog";
+import { performanceLog } from '../src/performance/performanceLog';
 
 class MyClass {
 
     @performanceLog(true)
     myMethod(): boolean {
-        console.log("Inside")
+        console.log('Inside')
         return true
     }
 }
