@@ -1,24 +1,11 @@
 {
     "compilerOptions": {
-        "noEmit": true,
-        "target": "es2015",
         "module": "commonjs",
-        "moduleResolution": "node",
-        "noImplicitAny": false,
-        "strict": false,
-        "noImplicitReturns": true,
-        "noUnusedLocals": false,
+        "target": "es5",
+        "noImplicitAny": true,
         "declaration": true,
-        "noUnusedParameters": false,
-        "noFallthroughCasesInSwitch": true,
-        "forceConsistentCasingInFileNames": true,
         "experimentalDecorators": true,
-        "lib": [
-            "es6",
-            "dom",
-            "es2017"
-        ],
-        "jsx": "react"
+        "outDir": "./dist",
     },
     "include": [
         "./src/**/*",
