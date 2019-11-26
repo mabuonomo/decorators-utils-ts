@@ -17,11 +17,11 @@
     },
     "homepage": "https://github.com/mabuonomo/decorators-utils-ts#readme",
     "devDependencies": {
-        "@types/lodash": "^4.14.118",
-        "typescript": "^3.3.3",
+        "@types/lodash": "^4.14.149",
+        "typescript": "^3.7.2",
         "typings-checker": "^2.0.0"
     },
     "dependencies": {
-        "@types/node": "^10.12.18"
+        "@types/node": "^12.12.14"
     }
 }
