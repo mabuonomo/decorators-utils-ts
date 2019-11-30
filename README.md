@@ -1,18 +1,14 @@
 Decorators Utils - TS
 ===================
 
-## Build
-```bash
-docker-compose build
-```
+## Usage
 
-## Run
-```bash
-docker-compose run app ts-node src/test/{file}.ts
-```
 Example
-```bash
-docker-compose run app ts-node src/test/generic.ts
+```ts
+    @performanceLog(true)
+    myMethod(): boolean {
+        return true
+    }
 ```
 Result
 ```bash
