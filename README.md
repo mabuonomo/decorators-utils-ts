@@ -5,10 +5,10 @@ Decorators Utils - TS
 
 Example
 ```ts
-    @performanceLog(true)
-    myMethod(): boolean {
-        return true
-    }
+@performanceLog(true)
+myMethod(): boolean {
+    return true
+}
 ```
 Result
 ```bash
